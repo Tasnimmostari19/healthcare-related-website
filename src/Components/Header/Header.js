@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../hooks/useAuth';
 
@@ -18,7 +18,8 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#doctors">Doctors</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#career">Career Opportunities</Nav.Link>
-
+                        <Nav.Link as={Link} to="/shop">Shop</Nav.Link>
+                        <Nav.Link as={Link} to="/patientsinfo">Patients Info</Nav.Link>
 
                         <Navbar.Text>
                             {user?.email ?
@@ -29,7 +30,7 @@ const Header = () => {
 
                             }
                         </Navbar.Text>
-                        <Nav.Link as={Link} to="/shop">Shop</Nav.Link>
+
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

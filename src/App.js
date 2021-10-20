@@ -11,6 +11,8 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 import Header from './Components/Header/Header';
 import Shop from './Components/Shop/Shop';
+import Footer from './Components/Footer/Footer';
+import PatientsInfo from './Components/PatientsInfo/PatientsInfo';
 
 
 
@@ -35,6 +37,10 @@ function App() {
               <Shop></Shop>
             </PrivateRoute>
 
+            <PrivateRoute path='/patientsinfo'>
+              <PatientsInfo></PatientsInfo>
+            </PrivateRoute>
+
             <Route path='/login'>
               <Login></Login>
             </Route>
@@ -43,6 +49,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
