@@ -1,7 +1,8 @@
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Products.css'
 
 const Products = ({ product }) => {
     const { name, price, img } = product;
@@ -16,7 +17,7 @@ const Products = ({ product }) => {
                             <p>
                                 Price: {price}
                             </p>
-                            <Button variant="warning">Place Order</Button>{' '}
+                            <Button className='order' variant="light">Place Order</Button>{' '}
 
                         </Card.Body>
                     </Card>
