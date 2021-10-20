@@ -1,0 +1,31 @@
+.text-block {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background-color: rgba(250, 250, 210, 0.589);
+    color: black;
+   padding-top: 400px;
+   padding-left: 200px;
+   padding-right: 100px;
+   padding-bottom: 410px;
+  }
+
+  h2{
+      font-size: 75px;
+  }
+  p{
+      font-size: 25px
+  }
+  @media only screen and (max-width:699px){
+   .text-block{
+    background-color: rgba(250, 250, 210, 0.027);
+    color: white;
+    padding: 0;
+   }
+   h2{
+    font-size: 0px;
+}
+p{
+    font-size: 0px
+}
+}

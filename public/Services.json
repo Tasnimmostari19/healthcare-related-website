@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Physiotherapy for Joint Pain & Injuries",
+        "img": "https://thumbs.dreamstime.com/b/knee-pain-young-woman-having-isolated-white-31803841.jpg",
+        "description": "Joint pain is a very common problem with many possible causes, but it's usually a result of injury or arthritis.In older people."
+    },
+    {
+        "id": 2,
+        "name": "Physiotherapy for Neck & Back Pain",
+        "img": "https://www.sakraworldhospital.com/images/blogs/back-and-neck-pain-a-paradise-of-myths-1.jpg",
+        "description": "The most common cause of acute back or neck pain is a muscle injury, in which muscle fibers stretch too far and tear."
+    },
+    {
+        "id": 3,
+        "name": "Physiotherapy for Headaches/Concussions",
+        "img": "https://media.istockphoto.com/photos/headacheconceptual-artwork3d-illustration-picture-id1156927795?k=20&m=1156927795&s=612x612&w=0&h=3VzIUXpilRn_GvkZCvQx5ADJlaRq64cgfB1t5UDtmYo=",
+        "description": "Post-concussion headaches can vary and may feel like tension-type headaches or migraines."
+    },
+    {
+        "id": 4,
+        "name": "Physiotherapy for speech and language therapy",
+        "img": "https://media.gettyimages.com/photos/speech-therapist-with-child-client-sitting-on-the-floor-picture-id1252975855?s=612x612",
+        "description": "Speech and Language Therapy involves assessment, assistance with diagnosis and treatment of human communication disorders."
+    },
+    {
+        "id": 5,
+        "name": "Physiotherapy For Stroke Rehabilitation",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Y-YOJWRproPeG1ZagCHKQKvUQIqJyCHi2-gsMhjqmULuTfJxbtI02PwICO9fp6Rkomw&usqp=CAU",
+        "description": "From 24 hours after a stroke, physiotherapists begin rehabilitation in short frequent spells, focused on getting out of bed, standing and walking."
+    },
+    {
+        "id": 6,
+        "name": "Physiotherapy for Postural Problems & Muscle Weakness",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7j4zSrkYtCD6Q9J39BEpCtmTph87qXNyCwS0D1ceV1_8Afxeb2Nu-wC8RiW2BdLcBFWA&usqp=CAU",
+        "description": "Muscle strength is a potentially important factor contributing to postural control. "
+    },
+    {
+        "id": 7,
+        "name": "Physiotherapy for Repetitive Strain",
+        "img": "https://images.squarespace-cdn.com/content/v1/58c6f40d86e6c06ad0242243/1573488752152-QRHQTCKNJVPCTGI6T1R4/RSI+banner.jpg?format=1000w",
+        "description": "Repetitive strain injury (RSI) is a general term used to describe the pain felt in muscles, nerves and tendons caused by repetitive movement and overuse."
+    },
+    {
+        "id": 8,
+        "name": "Physiotherapy for Leg Pain",
+        "img": "data:image/jpeg;base64,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",
+        "description": "Most leg pain results from wear and tear, overuse, or injuries in joints or bones or in muscles, ligaments, tendons or other soft tissues. Some types of leg."
+    }
+]
